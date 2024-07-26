@@ -9,4 +9,4 @@ Adjust Font Size: Select the font size that suits you.
 Text Alignment: Align text to the left, center, right, or justify.
 Open and Save Files: Load and save text files.
 Live Demo
-You can view the live version of the Notepad App at: https://mo-nasirabubaker.github.io/textpad-app
+You can view the live version of the Notepad App at: (https://github.com/mo-nasirabubaker/TextPad)
