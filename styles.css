@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.notepad {
+    border: 2px solid rgb(38, 198, 218);
+    width: 80%;
+    max-width: 800px;
+    min-height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    background-color: rgb(38, 198, 218);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toolbar button, .toolbar select {
+    background-color: rgb(227,248,250);
+    color: rgb(140,225,235);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.toolbar button:hover, .toolbar select:hover {
+    background-color: rgb(140,225,235);
+    color: rgb(227,248,250);
+}
+
+textarea {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    resize: none;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
